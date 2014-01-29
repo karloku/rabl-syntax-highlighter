@@ -28,6 +28,12 @@
 			<key>name</key>
 			<string>string.source.rabl</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?:^[ \t]+)?(#).*$\n?</string>
+			<key>name</key>
+			<string>comment.line.number-sign.rabl</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.rabl</string>
