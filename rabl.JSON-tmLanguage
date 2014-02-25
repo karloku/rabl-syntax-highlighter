@@ -3,7 +3,7 @@
   "fileTypes": ["rabl"],
   "patterns": [
   	{
-  		"match": "object|attributes|collection|attribute|lambda|do|end|unless",
+  		"match": "((?!\S)|^)(object|attributes|collection|attribute|lambda|do|end|unless)",
   		"name" : "keyword.source.rabl"
   	},
   	{
